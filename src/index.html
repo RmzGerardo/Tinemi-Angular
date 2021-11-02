@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Tinemi</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <script  src="https://code.jquery.com/jquery-3.6.0.min.js"  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="  crossorigin="anonymous"> </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  
+  
+  <script>
+    $(document).ready(function(){
+       $('.parallax').parallax();
+     });
+   
+    $(document).ready(function(){
+     $('.sidenav').sidenav();
+   });
+  
+  
+    $(document).ready(function(){
+      $('.slider').slider(
+        
+      );
+    });
+  
+    $(document).ready(function(){
+      $('.materialboxed').materialbox();
+    });
+  
+    $(document).ready(function(){
+      $('.carousel').carousel();
+    });
+  
+    
+  
+    $(document).ready(function(){
+      $('.modal').modal();
+    });
+  
+    $(document).ready(function(){
+      $('.collapsible').collapsible();
+    });
+  
+  
+    $(document).ready(function(){  
+    
+    $("#enviar").click(function() {  
+        if($("#checkbox").is(':checked')) {  
+            alert("Aceptaste el aviso de privacidad");  
+        } else {  
+            alert("Debes aceptar el aviso de privacidad");  
+        }  
+    });  
+  
+  });  
+    
+   
+  
+  
+          
+  
+  
+  
+    document.addEventListener("DOMContentLoaded", function () {
+      new TypeIt("#titulo", {
+        strings: ["Contactanos.."],
+        speed: 400,
+        loop:true,
+        loopDelay: 8000
+      }).go();
+  
+      new TypeIt("#tinemi", {
+        strings: ["Catalogós de Tinemi"],
+        speed: 400,
+        loop:true,
+        loopDelay: 8000
+      }).go();
+  
+  
+      new TypeIt("#servicios", {
+        strings: ["Servicios"],
+        speed: 400,
+        loop:true,
+        loopDelay: 808
+      }).go();
+  
+      new TypeIt("#formulario", {
+        strings: ["Formulario de Contacto"],
+        speed: 400,
+        loop:true,
+        loopDelay: 808
+      }).go();
+    });
+  
+  
+    M.toast({html: 'Desliza las fotos !!!'})
+  
+  
+   
+         
+  
+  </script>
+
+</head>
+
+
+
+<body>
+
+  <app-root>
+    
+  </app-root>
+
+  
+  
+</body>
+</html>
